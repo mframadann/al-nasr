@@ -1,0 +1,258 @@
+:root {
+  --yellow-50: #fff9f0;
+  --yellow-100: #ffeccf;
+  --yellow-200: #ffe3b8;
+  --yellow-300: #ffd698;
+  --yellow-400: #ffce84;
+  --yellow-500: #ffc265;
+  --yellow-600: #e8b15c;
+  --yellow-700: #b58a48;
+  --yellow-800: #8c6b38;
+  --yellow-900: #6b512a;
+  --green-50: #e8f6f5;
+  --green-100: #b9e3df;
+  --green-200: #97d6d0;
+  --green-300: #68c3bb;
+  --green-400: #4ab7ad;
+  --green-500: #1da599;
+  --green-600: #1a968b;
+  --green-700: #15756d;
+  --green-800: #105b54;
+  --green-900: #0c4540;
+  --font-heading: "Kufam";
+  --font-typography: "Nunito";
+  --color-heading: #4A4A4A;
+  --color-typography: #454545;
+
+  /* Widths */
+  --width-1240: 1240px;
+}
+
+* {
+  padding: 0px;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.font-nunito {
+  font-family: var(--font-typography);
+}
+
+.font-kufam {
+  font-family: var(--font-heading);
+}
+
+.text-heading {
+  color: var(--color-heading);
+}
+
+.bg-yellow-primary {
+  background-color: var(--yellow-500);
+}
+
+.ukuran-45px {
+  font-size: 45px;
+}
+
+.button-secondary {
+  padding: 26px 48px;
+  border-radius: 10px;
+  border: none;
+  font-size: 20px;
+  color: var(--color-typography);
+  font-weight: 600;
+  cursor: pointer;
+  max-width: fit-content;
+}
+
+.button-secondary-outline {
+  border: 2px solid var(--yellow-500);
+  color: var(--yellow-500);
+  background-color: transparent;
+  padding: 26px 48px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+  max-width: fit-content;
+}
+
+.button-secondary:hover {
+  background-color: var(--yellow-600);
+}
+
+.button-secondary-outline:hover {
+  background-color: var(--yellow-500);
+  color: var(--color-typography);
+}
+
+.navbar {
+  width: 100%;
+  max-width: var(--width-1240);
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 80px;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 44px;
+}
+
+.nav-menu li {
+  list-style: none;
+}
+
+.nav-menu>li>a {
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--color-typography);
+}
+
+.nav-menu-active {
+  font-weight: bold;
+  color: var(--yellow-500) !important;
+}
+
+/* Hero styles */
+#hero {
+  display: flex;
+  max-width: var(--width-1240);
+  margin: auto;
+  margin-top: 78px;
+}
+
+.hero-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.hero-text-top {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.hero-text-top h1 {
+  font-size: 54px;
+  color: var(--color-heading);
+  line-height: 140%;
+}
+
+.hero-text-bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.hero-text-bottom p {
+  font-size: 24px;
+  max-width: 645px;
+  font-weight: 600;
+  color: var(--color-typography);
+}
+
+.badge {
+  max-width: fit-content;
+  padding: 14px 40px;
+  background-color: var(--green-100);
+  color: var(--green-500);
+  font-size: 24px;
+  border-radius: 20px;
+}
+
+.quote-card {
+  width: 100%;
+  max-width: 230px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  border-radius: 10px;
+  border: 2px solid var(--yellow-500);
+  padding: 6px;
+  position: absolute;
+  z-index: 20;
+  background-color: white;
+}
+
+.quote-card-top {
+  top: 6%;
+  right: 4%;
+}
+
+.quote-card-bottom {
+  bottom: 0%;
+  left: 0%;
+}
+
+.quote {
+  font-size: 12px;
+  color: var(--color-typography);
+}
+
+.card-text span {
+  font-size: 12px;
+  color: var(--color-heading);
+  font-weight: 600;
+}
+
+/* Right hero styles */
+.right-hero {
+  width: 100%;
+  max-width: 548px;
+  height: 558px;
+  display: flex;
+  position: relative;
+  justify-content: end;
+  align-items: start;
+}
+
+.green-block {
+  width: 533px;
+  height: 245px;
+  border-radius: 10px;
+  background-color: var(--green-500);
+  align-self: flex-end;
+  z-index: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.view-of-mecca {
+  width: 406px;
+  height: 507px;
+  border: 1px solid var(--yellow-500);
+  border-radius: 10px;
+  background-image: url("../assets/images/haidan-IOBIgKmjm1Y-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 15;
+  margin-right: 48px;
+}
+
+.play-button {
+  width: 87px;
+  height: 87px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  border-radius: 50%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.play-icon-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(10px);
+}
