@@ -122,6 +122,7 @@
   max-width: var(--width-1240);
   margin: auto;
   margin-top: 78px;
+  height: 884px;
 }
 
 .hero-texts {
@@ -256,3 +257,76 @@
   justify-content: center;
   backdrop-filter: blur(10px);
 }
+
+/* about us */
+#about-us{
+  height: 878px;
+  
+}
+.about-us-container{
+  width: 100%;
+  max-width: 1264px;
+  margin: auto;
+}
+
+.about-us-container-img-and-text{
+  display: flex;
+  width: 100%;
+  max-width: 1224px;
+  height: 646px;
+  margin: auto;
+  padding: 20px;
+  gap: 54px;
+ 
+}
+.about-us-container-img-and-text .img-arab{
+  margin: 27.5px 0;
+
+}
+
+.img-arab{
+  width: 506px;
+  height: 591px;
+}
+.about-text{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+}
+
+.about-text h1{
+  font-size: 54px;
+}
+.about-text p{
+  font-size: 24px;
+}
+
+.about-icon{
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.about-icon i{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.font-paragraf{
+  font-size: 24px;
+}
+.icon-background{
+  background-color: var(--green-100)
+}
+
+.button-left-right{
+  width: fit-content;
+  display: flex;
+  gap: 40px;
+}
+
+.button-color{
+ width: 230px;
+ height: 77px;
+}
+
