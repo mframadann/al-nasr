@@ -21,10 +21,10 @@
   --green-900: #0c4540;
   --font-heading: "Kufam";
   --font-typography: "Nunito";
-  --color-heading: #4A4A4A;
+  --color-heading: #4a4a4a;
   --color-typography: #454545;
-  --cards-right: #C1FFFA;
-  --cards-text: #1DA599;
+  --cards-right: #c1fffa;
+  --cards-text: #1da599;
 
   /* Widths */
   --width-1240: 1240px;
@@ -111,7 +111,7 @@
   list-style: none;
 }
 
-.nav-menu>li>a {
+.nav-menu > li > a {
   text-decoration: none;
   font-size: 20px;
   color: var(--color-typography);
@@ -397,4 +397,93 @@
   justify-content: center;
   align-items: center;
   height: 100;
+}
+
+/* Airways Section style */
+/* bagian section */
+#airways {
+  display: flex;
+  gap: 2rem;
+  width: 1515px;
+  height: 239px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* text kontainer */
+.text {
+  display: flex;
+  flex-direction: column;
+  width: 254px;
+}
+
+/* wrapper teks */
+.wrap {
+  width: 295px;
+  max-width: fit-content;
+}
+
+/* teks judul airways accomidation */
+.text h1 {
+  width: 254px;
+  font-size: 32;
+  font-weight: bold;
+  font-family: var(--font-heading);
+  text-transform: capitalize;
+  color: var(--color-heading);
+  margin-bottom: 10px;
+  line-height: 140%;
+}
+
+.text p {
+  width: 254px;
+  font-family: var(--font-typography);
+  color: var(--color-typography);
+  font-size: 24;
+  font-weight: 650;
+  line-height: 150%;
+}
+
+/* ratting */
+.container {
+  width: 254px;
+  height: 47px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: start;
+}
+
+.button {
+  width: 165px;
+  width: fit-content;
+  height: 47px;
+  background-color: var(--cards-right);
+  border-radius: 20px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  color: var(--cards-text);
+  font-weight: 530;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.options {
+  width: 1472px;
+  height: 77px;
+  display: flex;
+  gap: 50px;
+  margin-right: 80px;
+}
+
+.plane-img {
+  width: 226px;
+  height: 77px;
 }
