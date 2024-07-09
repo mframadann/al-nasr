@@ -23,6 +23,8 @@
   --font-typography: "Nunito";
   --color-heading: #4A4A4A;
   --color-typography: #454545;
+  --cards-right: #C1FFFA;
+  --cards-text: #1DA599;
 
   /* Widths */
   --width-1240: 1240px;
@@ -44,6 +46,10 @@
 
 .text-heading {
   color: var(--color-heading);
+}
+
+.text-typography {
+  color: var(--color-typography);
 }
 
 .bg-yellow-primary {
@@ -255,4 +261,140 @@
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(10px);
+}
+
+/* Packages Style */
+#packages {
+  max-width: var(--width-1240);
+  margin: auto;
+  margin-top: 78px;
+  margin-bottom: 50px;
+}
+
+.pack-head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  max-width: 822px;
+  margin: auto;
+}
+
+.pack-head h1 {
+  font-size: 54px;
+  color: var(--color-heading);
+  line-height: 140%;
+}
+
+.pack-head span {
+  font-size: 24px;
+  color: var(--color-typography);
+  line-height: 150%;
+  max-width: 660px;
+  margin: auto;
+  margin-bottom: 72px;
+}
+
+.all-packages {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 78px;
+  height: 1214px;
+  max-width: var(--width-1240);
+  margin: auto;
+}
+
+.cards {
+  width: 360px;
+  height: 550px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.cards-cont {
+  height: 550px;
+  max-height: 494px;
+  margin: 26px 0px 28px 26px;
+}
+
+.cards-img {
+  width: 312px;
+  height: 238px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.pack-top {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-typography);
+  color: var(--color-typography);
+}
+
+.top-p {
+  color: var(--yellow-500);
+  font-weight: 600;
+}
+
+.top-span {
+  background-color: var(--cards-right);
+  border-radius: 20px;
+  padding: 10px 30px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: var(--cards-text);
+  font-weight: 600;
+}
+
+.pack-bottom {
+  margin-top: 20px;
+}
+
+.pack-bottom h3 {
+  color: var(--color-typography);
+  margin-bottom: 10px;
+  max-width: 494px;
+}
+
+.color-person {
+  color: var(--cards-text);
+}
+
+.icon-pack {
+  display: flex;
+  width: 206px;
+  height: 36px;
+  margin: 20px 0px;
+  gap: 20px;
+}
+
+.view-detail {
+  width: 125px;
+  height: 40px;
+  border: 2px solid var(--yellow-500);
+  color: var(--yellow-500);
+  background-color: transparent;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.view-detail:hover {
+  background-color: var(--yellow-500);
+  color: var(--color-typography);
+}
+
+.soon-pack {
+  font-family: var(--font-typography);
+  color: var(--cards-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100;
 }
