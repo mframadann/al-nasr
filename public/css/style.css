@@ -10,6 +10,7 @@
   --yellow-800: #8c6b38;
   --yellow-900: #6b512a;
   --green-50: #e8f6f5;
+  --facility-container : #F3FFFE;
   --green-100: #b9e3df;
   --green-200: #97d6d0;
   --green-300: #68c3bb;
@@ -255,4 +256,36 @@
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(10px);
+}
+
+#facility {
+  width: 1439px;
+  height: 662px;
+  background-color: var(--facility-container);
+  display: flex;
+
+}
+.facilities-container{
+  width: 1239px;
+  height: 482px;
+  margin: auto;
+}
+.facilities-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.facilities-text h1 {
+  font-size: 54px;
+  font-family: var(--font-heading);
+  color: var(--color-heading);
+}
+.facilities-text p {
+  font-size: 24px;
+  font-family: var(--color-typography);
+  text-align: center;
+  color: var(--color-typography);
 }
