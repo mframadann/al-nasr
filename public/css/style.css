@@ -272,22 +272,21 @@
 .about-us-container-img-and-text{
   display: flex;
   width: 100%;
-  max-width: 1224px;
+  max-width: 1264px;
   height: 646px;
   margin: auto;
   padding: 20px;
   gap: 54px;
- 
 }
 .about-us-container-img-and-text .img-arab{
   margin: 27.5px 0;
-
 }
 
 .img-arab{
   width: 506px;
   height: 591px;
 }
+
 .about-text{
   display: flex;
   flex-direction: column;
@@ -298,6 +297,7 @@
 .about-text h1{
   font-size: 54px;
 }
+
 .about-text p{
   font-size: 24px;
 }
@@ -305,18 +305,29 @@
 .about-icon{
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 20px;
 }
+
 .about-icon i{
   display: flex;
   align-items: center;
   gap: 20px;
+  padding-bottom: 15px;
 }
+
 .font-paragraf{
+  display: flex;
+  align-items: center;
+  gap: 20px;
   font-size: 24px;
 }
-.icon-background{
+
+.icon-background-out{
+  border-radius: 10px;
+  width: fit-content;
+  padding: 10px;
   background-color: var(--green-100)
+  
 }
 
 .button-left-right{
@@ -329,4 +340,3 @@
  width: 230px;
  height: 77px;
 }
-
