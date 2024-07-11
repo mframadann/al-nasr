@@ -266,18 +266,18 @@
 /* Packages Style */
 #packages {
   max-width: var(--width-1240);
-  margin: auto;
   margin-top: 78px;
   margin-bottom: 50px;
+  margin: auto;
 }
 
 .pack-head {
   display: flex;
   flex-direction: column;
-  gap: 10px;
   text-align: center;
   max-width: 822px;
   margin: auto;
+  gap: 10px;
 }
 
 .pack-head h1 {
@@ -299,9 +299,9 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 78px;
+  gap: 46px 78px;
   height: 1214px;
-  max-width: var(--width-1240);
+  width: var(--width-1240);
   margin: auto;
 }
 
@@ -310,7 +310,7 @@
   height: 550px;
   border-radius: 10px;
   background-color: white;
-  box-shadow: 2px 2px 4px 6px rgba(0, 0, 0, 0.055);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
 }
 
@@ -399,73 +399,65 @@
   height: 100;
 }
 
-/* Airways Section style */
-/* bagian section */
-#airways {
-  display: flex;
-  gap: 2rem;
-  width: 1515px;
+/* Airways Accomodation Style */
+#airways-accomodation {
+  width: 1440px;
   height: 239px;
-  justify-content: center;
-  align-items: center;
-}
-
-/* text kontainer */
-.text {
-  display: flex;
-  flex-direction: column;
-  width: 254px;
-}
-
-/* wrapper teks */
-.wrap {
-  width: 295px;
-  max-width: fit-content;
-}
-
-/* teks judul airways accomidation */
-.text h1 {
-  width: 254px;
-  font-size: 32;
-  font-weight: bold;
-  font-family: var(--font-heading);
-  text-transform: capitalize;
-  color: var(--color-heading);
-  margin-bottom: 10px;
-  line-height: 140%;
-}
-
-.text p {
-  width: 254px;
-  font-family: var(--font-typography);
-  color: var(--color-typography);
-  font-size: 24;
-  font-weight: 650;
-  line-height: 150%;
-}
-
-/* ratting */
-.container {
-  width: 254px;
-  height: 47px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: start;
-}
-
-.button {
-  width: 165px;
-  width: fit-content;
-  height: 47px;
-  background-color: var(--cards-right);
-  border-radius: 20px;
-  padding: 10px 20px;
+  max-width: 1847px;
+  margin: 50px 76px;
+  padding-left: 33px;
+  margin: auto;
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  align-items: center;
+  gap: 80px;
+}
+
+.accomodation-text {
+  display: flex;
+  flex-direction: column;
+  max-width: 295px;
+}
+
+.accomodation-text h1 {
+  line-height: 140%;
+  font-size: 32px;
+  max-width: 254px;
+}
+
+.accomodation-text p {
+  margin-top: 10px;
+  line-height: 150%;
+  font-size: 24px;
+  height: 72px;
+}
+
+.accomodation-img {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 81px 0px;
+  overflow: hidden;
+}
+
+.accomodation-img img {
+  align-items: center;
+  width: 288px;
+  height: 78px;
+}
+
+.rating {
+  width: 165px;
+  height: 48px;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  max-width: fit-content;
+  background-color: var(--green-100);
   color: var(--cards-text);
-  font-weight: 530;
+  margin-top: 20px;
+  gap: 6px;
 }
 
 .icon {
@@ -475,15 +467,7 @@
   gap: 6px;
 }
 
-.options {
-  width: 1472px;
-  height: 77px;
-  display: flex;
-  gap: 50px;
-  margin-right: 80px;
-}
-
-.plane-img {
-  width: 226px;
-  height: 77px;
+.icon span {
+  font-family: var(--color-typography);
+  font-weight: 20px;
 }
