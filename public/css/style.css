@@ -375,4 +375,5 @@
 
 .button-color-right:hover{
   background-color: var(--yellow-600);
+  color: var(--color-typography);
 }
