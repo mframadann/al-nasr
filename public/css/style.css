@@ -19,12 +19,14 @@
   --green-700: #15756d;
   --green-800: #105b54;
   --green-900: #0c4540;
-  --font-heading: 'Kufam';
-  --font-typography: 'Nunito';
-  --color-heading: #4a4a4a;
-  --color-typography: #454545;
   --facility-container: #f3fffe;
   --logo-facility: #c1fffa;
+  --font-heading: "Kufam";
+  --font-typography: "Nunito";
+  --color-heading: #4a4a4a;
+  --color-typography: #454545;
+  --cards-right: #c1fffa;
+  --cards-text: #1da599;
 
   /* Widths */
   --width-1240: 1240px;
@@ -34,6 +36,11 @@
   padding: 0px;
   margin: 0;
   box-sizing: border-box;
+}
+
+#main {
+  width: 100%;
+  overflow: hidden;
 }
 
 .font-nunito {
@@ -46,6 +53,10 @@
 
 .text-heading {
   color: var(--color-heading);
+}
+
+.text-typography {
+  color: var(--color-typography);
 }
 
 .bg-yellow-primary {
@@ -113,7 +124,7 @@
   list-style: none;
 }
 
-.nav-menu > li > a {
+.nav-menu>li>a {
   text-decoration: none;
   font-size: 20px;
   color: var(--color-typography);
@@ -273,6 +284,7 @@
   background-color: var(--facility-container);
   display: flex;
 }
+
 .facilities-container {
   width: 1239px;
   height: 482px;
@@ -291,11 +303,13 @@
   font-size: 54px;
   color: var(--color-heading);
 }
+
 .facilities-text p {
   font-size: 24px;
   text-align: center;
   color: var(--color-typography);
-  font-weight: 600; /*semi bold*/
+  font-weight: 600;
+  /*semi bold*/
 }
 
 /* codingan yanti */
@@ -337,6 +351,7 @@
   margin-top: 5px;
   margin-left: 5px;
 }
+
 .health-logo {
   width: 36px;
   height: 36px;
@@ -355,6 +370,7 @@
   background-color: var(--logo-facility);
   border-radius: 10px;
 }
+
 .membership-logo svg {
   margin-top: 8px;
   margin-left: 7px;
@@ -368,7 +384,8 @@
 .card-information h4 {
   font-family: var(--font-heading);
   font-size: 20px;
-  font-weight: 600; /*semi bold*/
+  font-weight: 600;
+  /*semi bold*/
   color: var(--color-heading);
 }
 
@@ -377,5 +394,215 @@
   font-size: 14px;
   font-family: var(--font-typography);
   color: var(--color-typography);
-  font-weight: 500; /*medium*/
+  font-weight: 500;
+  /*medium*/
+}
+
+
+/* Packages Style */
+#packages {
+  max-width: var(--width-1240);
+  margin: auto;
+  margin-top: 78px;
+  margin-bottom: 50px;
+}
+
+.packages-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  max-width: 822px;
+  margin: auto;
+}
+
+.packages-description h1 {
+  font-size: 54px;
+  color: var(--color-heading);
+  line-height: 140%;
+}
+
+.packages-description p {
+  font-size: 24px;
+  color: var(--color-typography);
+  line-height: 150%;
+  max-width: 660px;
+  margin: auto;
+  margin-bottom: 72px;
+}
+
+.all-card-packages {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 46px 78px;
+  height: 1214px;
+  width: var(--width-1240);
+  margin: auto;
+}
+
+.cards {
+  width: 360px;
+  height: 550px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+.cards-container {
+  height: 550px;
+  max-height: 494px;
+  margin: 26px 0px 28px 26px;
+}
+
+.cards-img {
+  width: 312px;
+  height: 238px;
+  border-radius: 10px;
+  margin-bottom: 16px;
+}
+
+.packages-top {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  font-family: var(--font-typography);
+  color: var(--color-typography);
+}
+
+.top-p {
+  color: var(--yellow-500);
+  font-weight: 600;
+}
+
+.top-span {
+  background-color: var(--cards-right);
+  border-radius: 20px;
+  padding: 10px 30px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  color: var(--cards-text);
+  font-weight: 600;
+}
+
+.packages-bottom {
+  margin-top: 20px;
+}
+
+.packages-bottom h3 {
+  color: var(--color-typography);
+  margin-bottom: 10px;
+  max-width: 494px;
+}
+
+.color-person {
+  color: var(--cards-text);
+}
+
+.icon-packages {
+  display: flex;
+  width: 206px;
+  height: 36px;
+  margin: 20px 0px;
+  gap: 20px;
+}
+
+.view-detail {
+  width: 125px;
+  height: 40px;
+  border: 2px solid var(--yellow-500);
+  color: var(--yellow-500);
+  background-color: transparent;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.view-detail:hover {
+  background-color: var(--yellow-500);
+  color: var(--color-typography);
+}
+
+.soon-packages {
+  font-family: var(--font-typography);
+  color: var(--cards-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100;
+}
+
+/* Airways Accomodation Style */
+#airways-accomodation {
+  max-width: var(--width-1240);
+  margin: auto;
+  overflow: visible;
+  margin-bottom: 30px;
+}
+
+.accomodation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+}
+
+.accomodation-description {
+  display: flex;
+  flex-direction: column;
+  max-width: 295px;
+}
+
+.accomodation-description h1 {
+  line-height: 140%;
+  font-size: 32px;
+  max-width: 254px;
+}
+
+.text-description {
+  margin-top: 10px;
+  line-height: 150%;
+  font-size: 24px;
+  height: 72px;
+}
+
+.accomodation-img {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 81px 0px;
+}
+
+.accomodation-img img {
+  align-items: center;
+  width: 100%;
+  height: 78px;
+}
+
+.rating {
+  width: 165px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  max-width: fit-content;
+  background-color: var(--green-100);
+  border-radius: 20px;
+  padding: 10px 20px;
+  color: var(--cards-text);
+  margin-top: 20px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.icon span {
+  font-family: var(--color-typography);
+  font-weight: 20px;
 }
