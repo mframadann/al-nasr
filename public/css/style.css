@@ -261,12 +261,10 @@
 /* about us */
 #about-us{
   height: 878px;
+  background-color: var( --green-50);
+  display: flex;
+  align-items: center;
   
-}
-.about-us-container{
-  width: 100%;
-  max-width: 1264px;
-  margin: auto;
 }
 
 .about-us-container-img-and-text{
@@ -278,11 +276,12 @@
   padding: 20px;
   gap: 54px;
 }
-.about-us-container-img-and-text .img-arab{
+
+.about-us-container-img-and-text .img-arabic{
   margin: 27.5px 0;
 }
 
-.img-arab{
+.img-arabic{
   width: 506px;
   height: 591px;
 }
@@ -290,44 +289,55 @@
 .about-text{
   display: flex;
   flex-direction: column;
+  gap: 40px;
+
+}
+
+.container-text{
+  display: flex;
+  flex-direction: column;
   gap: 25px;
-
 }
 
-.about-text h1{
+.about-text .font-heading{
   font-size: 54px;
+  font-weight: 600;
 }
 
-.about-text p{
+.about-text .font-paragraf{
   font-size: 24px;
+  font-weight: 400;
 }
 
 .about-icon{
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
 }
 
-.about-icon i{
+.about-item{
   display: flex;
+  gap: 20px;
   align-items: center;
-  gap: 20px;
-  padding-bottom: 15px;
 }
 
-.font-paragraf{
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  font-size: 24px;
-}
-
-.icon-background-out{
-  border-radius: 10px;
+.container-icon {
+  background-color: var(--green-100);
   width: fit-content;
-  padding: 10px;
-  background-color: var(--green-100)
-  
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.item-icon-end-text{
+  display: flex;
+}
+.background-icon {
+  background-color: var(--green-100);
+}
+
+.item-text{
+  font-size: 24px;
+  font-weight: 400;
 }
 
 .button-left-right{
@@ -336,7 +346,33 @@
   gap: 40px;
 }
 
-.button-color{
+.button-color-left{
  width: 230px;
- height: 77px;
+ padding: 32px 62px;
+ border: none;
+ border-radius: 10px;
+ font-size: 20px;
+ cursor: pointer;
+ color: var(--color-typography)
+}
+
+.button-color-left:hover{
+  background-color: var(--yellow-600);
+}
+
+.button-color-right{
+  width: 230px;
+  padding: 32px 62px;
+  border-radius: 10px;
+  border: 2px solid var(--yellow-500);
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--yellow-500);
+  
+}
+
+.button-color-right:hover{
+  background-color: var(--yellow-600);
 }
