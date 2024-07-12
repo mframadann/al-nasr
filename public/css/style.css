@@ -271,7 +271,7 @@
   margin-bottom: 50px;
 }
 
-.pack-head {
+.packages-description {
   display: flex;
   flex-direction: column;
   gap: 10px;
@@ -280,13 +280,13 @@
   margin: auto;
 }
 
-.pack-head h1 {
+.packages-description h1 {
   font-size: 54px;
   color: var(--color-heading);
   line-height: 140%;
 }
 
-.pack-head span {
+.packages-description p {
   font-size: 24px;
   color: var(--color-typography);
   line-height: 150%;
@@ -295,7 +295,7 @@
   margin-bottom: 72px;
 }
 
-.all-packages {
+.all-card-packages {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -314,7 +314,7 @@
   box-sizing: border-box;
 }
 
-.cards-cont {
+.cards-container {
   height: 550px;
   max-height: 494px;
   margin: 26px 0px 28px 26px;
@@ -327,7 +327,7 @@
   margin-bottom: 16px;
 }
 
-.pack-top {
+.packages-top {
   display: flex;
   justify-content: space-between;
   display: flex;
@@ -351,11 +351,11 @@
   font-weight: 600;
 }
 
-.pack-bottom {
+.packages-bottom {
   margin-top: 20px;
 }
 
-.pack-bottom h3 {
+.packages-bottom h3 {
   color: var(--color-typography);
   margin-bottom: 10px;
   max-width: 494px;
@@ -365,7 +365,7 @@
   color: var(--cards-text);
 }
 
-.icon-pack {
+.icon-packages {
   display: flex;
   width: 206px;
   height: 36px;
@@ -390,7 +390,7 @@
   color: var(--color-typography);
 }
 
-.soon-pack {
+.soon-packages {
   font-family: var(--font-typography);
   color: var(--cards-text);
   display: flex;
@@ -413,19 +413,19 @@
   gap: 80px;
 }
 
-.accomodation-text {
+.accomodation-description {
   display: flex;
   flex-direction: column;
   max-width: 295px;
 }
 
-.accomodation-text h1 {
+.accomodation-description h1 {
   line-height: 140%;
   font-size: 32px;
   max-width: 254px;
 }
 
-.accomodation-text p {
+.accomodation-description p {
   margin-top: 10px;
   line-height: 150%;
   font-size: 24px;
