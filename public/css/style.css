@@ -10,7 +10,6 @@
   --yellow-800: #8c6b38;
   --yellow-900: #6b512a;
   --green-50: #e8f6f5;
-  --facility-container : #F3FFFE;
   --green-100: #b9e3df;
   --green-200: #97d6d0;
   --green-300: #68c3bb;
@@ -20,10 +19,12 @@
   --green-700: #15756d;
   --green-800: #105b54;
   --green-900: #0c4540;
-  --font-heading: "Kufam";
-  --font-typography: "Nunito";
-  --color-heading: #4A4A4A;
+  --font-heading: 'Kufam';
+  --font-typography: 'Nunito';
+  --color-heading: #4a4a4a;
   --color-typography: #454545;
+  --facility-container: #f3fffe;
+  --logo-facility: #c1fffa;
 
   /* Widths */
   --width-1240: 1240px;
@@ -97,6 +98,12 @@
   align-items: center;
 }
 
+.navbar img {
+  width: 143px;
+  height: 100px;
+  background-color: transparent;
+}
+
 .nav-menu {
   display: flex;
   gap: 44px;
@@ -106,7 +113,7 @@
   list-style: none;
 }
 
-.nav-menu>li>a {
+.nav-menu > li > a {
   text-decoration: none;
   font-size: 20px;
   color: var(--color-typography);
@@ -229,7 +236,7 @@
   height: 507px;
   border: 1px solid var(--yellow-500);
   border-radius: 10px;
-  background-image: url("../assets/images/haidan-IOBIgKmjm1Y-unsplash.jpg");
+  background-image: url('../assets/images/haidan-IOBIgKmjm1Y-unsplash.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -258,34 +265,106 @@
   backdrop-filter: blur(10px);
 }
 
+/* codingan sabrina */
+
 #facility {
-  width: 1439px;
+  width: 100%;
   height: 662px;
   background-color: var(--facility-container);
   display: flex;
-
 }
-.facilities-container{
+.facilities-container {
   width: 1239px;
   height: 482px;
   margin: auto;
 }
-.facilities-text{
+
+.facilities-text {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: center;
   gap: 10px;
 }
 
 .facilities-text h1 {
   font-size: 54px;
-  font-family: var(--font-heading);
   color: var(--color-heading);
 }
 .facilities-text p {
   font-size: 24px;
-  font-family: var(--color-typography);
   text-align: center;
   color: var(--color-typography);
+  font-weight: 600; /*semi bold*/
+}
+
+/* codingan yanti */
+
+.kotak-container {
+  height: 274px;
+  display: flex;
+  gap: 37px;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.kotak {
+  width: 282px;
+  height: 112px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgb(0, 0, 0, 0.1);
+}
+
+.kotak-margin {
+  display: flex;
+  width: 242px;
+  height: 72px;
+  align-items: start;
+  justify-content: center;
+  margin: 20px auto;
+  gap: 15px;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  background-color: var(--logo-facility);
+  border-radius: 10px;
+}
+
+.logo svg {
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.logo-membership {
+  width: 36px;
+  height: 36px;
+  background-color: var(--logo-facility);
+  border-radius: 10px;
+}
+.logo-membership svg {
+  margin-top: 8px;
+  margin-left: 7px;
+}
+
+.teks {
+  width: 186px;
+  height: 72px;
+}
+
+.teks h4 {
+  font-family: var(--font-heading);
+  font-size: 20px;
+  font-weight: 600; /*semi bold*/
+  color: var(--color-heading);
+}
+
+.teks p {
+  margin-top: 8px;
+  font-size: 14px;
+  font-family: var(--font-typography);
+  color: var(--color-typography);
+  font-weight: 500; /*medium*/
 }
