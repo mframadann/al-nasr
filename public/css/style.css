@@ -36,6 +36,11 @@
   box-sizing: border-box;
 }
 
+#main {
+  width: 100%;
+  overflow: hidden;
+}
+
 .font-nunito {
   font-family: var(--font-typography);
 }
@@ -111,7 +116,7 @@
   list-style: none;
 }
 
-.nav-menu > li > a {
+.nav-menu>li>a {
   text-decoration: none;
   font-size: 20px;
   color: var(--color-typography);
@@ -401,12 +406,13 @@
 
 /* Airways Accomodation Style */
 #airways-accomodation {
-  width: 1440px;
-  height: 239px;
-  max-width: 1847px;
-  margin: 50px 76px;
-  padding-left: 33px;
+  max-width: var(--width-1240);
   margin: auto;
+  overflow: visible;
+  margin-bottom: 30px;
+}
+
+.accomodation-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -425,7 +431,7 @@
   max-width: 254px;
 }
 
-.accomodation-description p {
+.text-description {
   margin-top: 10px;
   line-height: 150%;
   font-size: 24px;
@@ -437,12 +443,11 @@
   flex-direction: row;
   gap: 50px;
   padding: 81px 0px;
-  overflow: hidden;
 }
 
 .accomodation-img img {
   align-items: center;
-  width: 288px;
+  width: 100%;
   height: 78px;
 }
 
