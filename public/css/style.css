@@ -140,7 +140,8 @@
   display: flex;
   max-width: var(--width-1240);
   margin: auto;
-  margin-top: 78px;
+  margin-top: 40px;
+  height: 884px;
 }
 
 .hero-texts {
@@ -710,4 +711,125 @@
 .show-more-image-button:hover {
   background-color: rgba(29, 165, 153, 0.85);
   cursor: pointer;
+}
+
+/* about us */
+#about-us {
+  height: 878px;
+  background-color: var(--green-50);
+  display: flex;
+  align-items: center;
+
+}
+
+.about-us-container-img-and-text {
+  display: flex;
+  width: 100%;
+  max-width: 1264px;
+  height: 646px;
+  margin: auto;
+  padding: 20px;
+  gap: 54px;
+}
+
+.about-us-container-img-and-text .img-arabic {
+  margin: 27.5px 0;
+}
+
+.img-arabic {
+  width: 506px;
+  height: 591px;
+}
+
+.about-text {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+}
+
+.container-text {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.about-text .font-heading {
+  font-size: 54px;
+  font-weight: 600;
+}
+
+.about-text .font-paragraf {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about-icon {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-item {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.container-icon {
+  background-color: var(--green-100);
+  width: fit-content;
+  padding: 6px;
+  border-radius: 10px;
+}
+
+.item-icon-end-text {
+  display: flex;
+}
+
+.background-icon {
+  background-color: var(--green-100);
+}
+
+.item-text {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.button-left-right {
+  width: fit-content;
+  display: flex;
+  gap: 40px;
+}
+
+.button-color-left {
+  width: 230px;
+  padding: 32px 62px;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--color-typography)
+}
+
+.button-color-left:hover {
+  background-color: var(--yellow-600);
+}
+
+.button-color-right {
+  width: 230px;
+  padding: 32px 62px;
+  border-radius: 10px;
+  border: 2px solid var(--yellow-500);
+  background-color: transparent;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--yellow-500);
+
+}
+
+.button-color-right:hover {
+  background-color: var(--yellow-600);
+  color: var(--color-typography);
 }
