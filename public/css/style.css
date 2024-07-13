@@ -606,3 +606,108 @@
   font-family: var(--color-typography);
   font-weight: 20px;
 }
+
+/* Gallery Style */
+#gallery {
+  width: 100%;
+  background-color: var(--green-50);
+  padding: 70px;
+}
+
+.gallery-wrapper {
+  max-width: var(--width-1240);
+  margin: auto;
+}
+
+.gallery-section-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.gallery-section-title {
+  font-size: 54px;
+  color: var(--color-heading);
+}
+
+.gallery-section-description {
+  font-size: 24px;
+  color: var(--color-typography);
+  max-width: 660px;
+  margin: auto;
+}
+
+.gallery-images {
+  width: 100%;
+  display: flex;
+  gap: 26px;
+  margin-top: 70px;
+  position: relative;
+}
+
+.first-image-item {
+  width: 570px;
+  height: 743px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.first-image-item img {
+  width: 100%;
+}
+
+
+.others-image {
+  max-width: 685px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 27px;
+  align-content: space-between;
+}
+
+.image-wrapper {
+  width: 329px;
+  height: 353px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.image-wrapper:nth-child(1) {
+  background-image: url("/public/assets/images/akil-imran-KW-qmD8hOx4-unsplash.jpg");
+}
+
+.image-wrapper:nth-child(2) {
+  background-image: url("/public/assets/images/haidan-RhkbHU14MoA-unsplash.jpg");
+}
+
+.image-wrapper:nth-child(3) {
+  background-image: url("/public/assets/images/said-alamri-T8FuXFvGLMU-unsplash.jpg");
+}
+
+.image-wrapper:nth-child(4) {
+  background-image: url("/public/assets/images/ohood-abdulaziz-V0FgRuKvwXE-unsplash.jpg");
+}
+
+.show-more-image-button {
+  position: absolute;
+  bottom: 2.9%;
+  right: 2.9%;
+  padding: 16px 32px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  gap: 22px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: rgba(29, 165, 153, 0.75);
+  backdrop-filter: blur(1px);
+}
+
+.show-more-image-button:hover {
+  background-color: rgba(29, 165, 153, 0.85);
+  cursor: pointer;
+}
