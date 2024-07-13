@@ -675,19 +675,19 @@
 }
 
 .image-wrapper:nth-child(1) {
-  background-image: url("/public/assets/images/akil-imran-KW-qmD8hOx4-unsplash.jpg");
+  background-image: url("https://mframadann.github.io/al-nasr/public/assets/images/akil-imran-KW-qmD8hOx4-unsplash.jpg");
 }
 
 .image-wrapper:nth-child(2) {
-  background-image: url("/public/assets/images/haidan-RhkbHU14MoA-unsplash.jpg");
+  background-image: url("https://mframadann.github.io/al-nasr/public/assets/images/haidan-RhkbHU14MoA-unsplash.jpg");
 }
 
 .image-wrapper:nth-child(3) {
-  background-image: url("/public/assets/images/said-alamri-T8FuXFvGLMU-unsplash.jpg");
+  background-image: url("https://mframadann.github.io/al-nasr/public/assets/images/said-alamri-T8FuXFvGLMU-unsplash.jpg");
 }
 
 .image-wrapper:nth-child(4) {
-  background-image: url("/public/assets/images/ohood-abdulaziz-V0FgRuKvwXE-unsplash.jpg");
+  background-image: url("https://mframadann.github.io/al-nasr/public/assets/images/ohood-abdulaziz-V0FgRuKvwXE-unsplash.jpg");
 }
 
 .show-more-image-button {
@@ -711,3 +711,5 @@
   background-color: rgba(29, 165, 153, 0.85);
   cursor: pointer;
 }
+
+/* End style */
