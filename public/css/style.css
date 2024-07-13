@@ -63,7 +63,7 @@
   font-weight: 600;
   cursor: pointer;
   max-width: fit-content;
-}
+} 
 
 .button-secondary-outline {
   border: 2px solid var(--yellow-500);
@@ -121,7 +121,7 @@
   display: flex;
   max-width: var(--width-1240);
   margin: auto;
-  margin-top: 78px;
+  margin-top: 40px;
   height: 884px;
 }
 
