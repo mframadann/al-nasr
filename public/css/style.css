@@ -21,7 +21,7 @@
   --green-900: #0c4540;
   --font-heading: "Kufam";
   --font-typography: "Nunito";
-  --color-heading: #4A4A4A;
+  --color-heading: #4a4a4a;
   --color-typography: #454545;
 
   /* Widths */
@@ -105,7 +105,7 @@
   list-style: none;
 }
 
-.nav-menu>li>a {
+.nav-menu > li > a {
   text-decoration: none;
   font-size: 20px;
   color: var(--color-typography);
@@ -255,4 +255,215 @@
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(10px);
+}
+
+/* secttion-testimonials */
+#testimonials {
+  max-width: var(--width-1240);
+  margin: auto;
+  padding-top: 90px;
+  padding-bottom: 40px;
+}
+
+.testimonials-header {
+}
+
+.testimonials-header-title {
+  font-size: 54px;
+  max-width: 860px;
+  font-weight: bold;
+  text-align: end;
+  margin-left: auto;
+  margin-bottom: 10px;
+}
+
+.testimonials-header-sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials-header-sub-button {
+  background-color: var(--yellow-500);
+  border: none;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.testimonials-header-sub-description {
+  max-width: 660px;
+  font-size: 24px;
+  font-weight: 600px;
+  text-align: end;
+}
+
+.testimonials-slider {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  padding-top: 60px;
+  max-width: var(--width-1240);
+  margin-bottom: 52px;
+  gap: 49px;
+}
+
+.testimonials-slider-cards {
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  min-width: 476px;
+  height: 203px;
+  background-color: white;
+  padding-top: 20px;
+}
+
+.testimonials-cards-images {
+  display: flex;
+  flex-direction: column;
+}
+
+.img-1 {
+  max-width: 100px;
+  height: 100px;
+  margin-left: 26px;
+  margin-bottom: 18px;
+}
+
+.ratings {
+  display: flex;
+  justify-content: center;
+  height: 22px;
+  max-width: 55px;
+  margin-left: 48.5px;
+}
+
+.testimonials-cards-text {
+  display: flex;
+  flex-direction: column;
+  height: 163px;
+  margin-left: 23px;
+}
+
+.testimonials-cards-title {
+  display: flex;
+  max-width: fit-content;
+  height: 29px;
+  border-radius: 20px;
+  background-color: #c1fffa;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--green-500);
+  padding-left: 20px;
+  padding-right: 20px;
+  /* gap: 24px; */
+}
+
+.testimonials-cards-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: fit-content;
+  height: 36px;
+  font-size: 24px;
+  font-weight: 600;
+  padding-top: 24px;
+}
+
+.testimonials-cards-review {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: fit-content;
+  height: 84px;
+  font-weight: 500;
+  font-size: 14px;
+  padding-right: 26px;
+  padding-top: 12px;
+}
+
+.testimonials-slider-button {
+  background-color: var(--yellow-500);
+  border: none;
+  border-radius: 10px;
+  padding: 20px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+  margin-top: 60px;
+}
+
+footer {
+  background-color: var(--green-500);
+  padding-top: 60px;
+  padding-bottom: 28px;
+  color: white;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: var(--width-1240);
+  margin: auto;
+  gap: 20px;
+}
+
+.footer-logo {
+  max-width: 294px;
+  margin-bottom: 20px;
+}
+
+.footer-logo-description {
+  font-size: 16px;
+  font-weight: 600;
+  max-width: 294px;
+}
+
+.footer-link {
+}
+
+.footer-link-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.footer-link-item {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.footer-line {
+  max-width: var(--width-1240);
+  margin: 25px auto;
+}
+
+.footer-bottom {
+  max-width: var(--width-1240);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-copyright {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.footer-sosmed {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
 }

@@ -1,124 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Al - Nasr</title>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Al - Nasr</title>
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./public/assets/svgs/Logo.svg"
+      type="image/x-icon"
+    />
 
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="./public/assets/svgs/Logo.svg" type="image/x-icon">
+    <!-- Font Nunito -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Font Nunito -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-    rel="stylesheet">
+    <!-- Font kufam -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Font kufam -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
-    rel="stylesheet">
+    <!-- Local Style -->
+    <link rel="stylesheet" href="./public/css/style.css" />
+  </head>
 
-  <!-- Local Style -->
-  <link rel="stylesheet" href="./public/css/style.css">
-</head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <img
+        src="./public/assets/svgs/Logo.svg"
+        alt="al-nasr-logo"
+        class="logo"
+      />
+      <!-- Nav Menu -->
+      <ul class="nav-menu">
+        <li><a href="#" class="font-nunito nav-menu-active">Home</a></li>
+        <li><a href="#" class="font-nunito">About Us</a></li>
+        <li><a href="#" class="font-nunito">Packages</a></li>
+        <li><a href="#" class="font-nunito">Facilities</a></li>
+        <li><a href="#" class="font-nunito">Galery</a></li>
+      </ul>
 
-<body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <img src="./public/assets/svgs/Logo.svg" alt="al-nasr-logo" class="logo">
-    <!-- Nav Menu -->
-    <ul class="nav-menu">
-      <li><a href="#" class="font-nunito nav-menu-active">Home</a></li>
-      <li><a href="#" class="font-nunito">About Us</a></li>
-      <li><a href="#" class="font-nunito">Packages</a></li>
-      <li><a href="#" class="font-nunito">Facilities</a></li>
-      <li><a href="#" class="font-nunito">Galery</a></li>
-    </ul>
+      <button class="button-secondary bg-yellow-primary font-nunito">
+        Contact us
+      </button>
+    </nav>
 
-    <button class="button-secondary bg-yellow-primary font-nunito">Contact us</button>
-  </nav>
-
-  <!-- Main Content -->
-  <main id="main">
-    <section id="hero">
-      <div class="hero-texts">
-        <div class="hero-text-top">
-          <span class="badge font-nunito">
-            No. 1 in Indonesia
-          </span>
-          <h1 class="font-kufam">
-            Make it easy for your Umrah worship with Al Nasr Travel
-          </h1>
+    <!-- Main Content -->
+    <main id="main">
+      <section id="hero">
+        <div class="hero-texts">
+          <div class="hero-text-top">
+            <span class="badge font-nunito"> No. 1 in Indonesia </span>
+            <h1 class="font-kufam">
+              Make it easy for your Umrah worship with Al Nasr Travel
+            </h1>
+          </div>
+          <div class="hero-text-bottom">
+            <p class="font-nunito">
+              Facilitate your Umrah pilgrimage with us, we already have hundreds
+              of thousands of customers, you can go for Umrah to Mecca and
+              Medina
+            </p>
+            <button class="button-secondary bg-yellow-primary font-nunito">
+              Contact us
+            </button>
+          </div>
         </div>
-        <div class="hero-text-bottom">
-          <p class="font-nunito">Facilitate your Umrah pilgrimage with us, we already have hundreds of thousands of
-            customers, you can go
-            for
-            Umrah to
-            Mecca and Medina</p>
-          <button class="button-secondary bg-yellow-primary font-nunito">Contact us</button>
-        </div>
-      </div>
-      <div class="right-hero">
-        <div class="green-block"></div>
-        <div class="view-of-mecca">
-          <button class="play-button">
-            <div class="play-icon-container">
-              <svg style="margin-left: 6px;" width="18" height="32" viewBox="0 0 18 32" fill="none"
-                xmlns="http://www.w3.org/2000/svg">
-                <path
-                  d="M16.5609 14.0027L3.38977 1.27551C2.12028 0.0488091 0 0.948421 0 2.71375L0 29.0561C0 30.8539 2.18744 31.7388 3.43746 30.4467L9 24.6966L16.6086 16.8315C17.3769 16.0373 17.3556 14.7706 16.5609 14.0027Z"
-                  fill="#1DA599" />
-              </svg>
+        <div class="right-hero">
+          <div class="green-block"></div>
+          <div class="view-of-mecca">
+            <button class="play-button">
+              <div class="play-icon-container">
+                <svg
+                  style="margin-left: 6px"
+                  width="18"
+                  height="32"
+                  viewBox="0 0 18 32"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.5609 14.0027L3.38977 1.27551C2.12028 0.0488091 0 0.948421 0 2.71375L0 29.0561C0 30.8539 2.18744 31.7388 3.43746 30.4467L9 24.6966L16.6086 16.8315C17.3769 16.0373 17.3556 14.7706 16.5609 14.0027Z"
+                    fill="#1DA599"
+                  />
+                </svg>
+              </div>
+            </button>
+          </div>
+          <!-- Top quote card -->
+          <div class="quote-card quote-card-top">
+            <img src="./public/assets/images/ali.png" alt="ali" />
+            <div class="card-text">
+              <p class="quote font-nunito">“Let's worship as good Muslims”.</p>
+              <span class="font-kufam">Ali Qualadeini</span>
             </div>
-          </button>
-        </div>
-        <!-- Top quote card -->
-        <div class="quote-card quote-card-top">
-          <img src="./public/assets/images/ali.png" alt="ali">
-          <div class="card-text">
-            <p class="quote font-nunito">
-              “Let's worship as good Muslims”.
-            </p>
-            <span class="font-kufam">Ali Qualadeini</span>
+          </div>
+          <!-- Bottom quote card -->
+          <div class="quote-card quote-card-bottom">
+            <img src="./public/assets/images/ali.png" alt="ali" />
+            <div class="card-text">
+              <p class="quote font-nunito">“Let's worship as good Muslims”.</p>
+              <span class="font-kufam">Ali Qualadeini</span>
+            </div>
           </div>
         </div>
-        <!-- Bottom quote card -->
-        <div class="quote-card quote-card-bottom">
-          <img src="./public/assets/images/ali.png" alt="ali">
-          <div class="card-text">
-            <p class="quote font-nunito">
-              “Let's worship as good Muslims”.
+      </section>
+
+      <!-- Hadi & Nike -->
+      <section id="about-us"></section>
+
+      <!-- Najikha & Dela -->
+      <section id="packages"></section>
+      <section id="airways-accomodation"></section>
+
+      <!-- Sabrina & Yanti -->
+      <section id="facility"></section>
+
+      <!-- Reza & Lisa -->
+      <section id="testimonials">
+        <div class="testimonials-header">
+          <h1 class="testimonials-header-title font-kufam">
+            Testimonials from our customers
+          </h1>
+          <div class="testimonials-header-sub">
+            <button class="testimonials-header-sub-button">
+              <img
+                src="./public/assets/svgs/arrow-left.svg"
+                alt="arrow-left"
+              />Previous
+            </button>
+            <p class="testimonials-header-sub-description font-nunito">
+              We have 100.000+ customers, here are our customer testimonials
             </p>
-            <span class="font-kufam">Ali Qualadeini</span>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="testimonials-slider">
+          <div class="testimonials-slider-cards">
+            <div class="testimonials-cards-img-rating">
+              <img
+                class="img-1"
+                src="./public/assets/images/cards-img-1.png"
+                alt="cards-img-1"
+              />
+              <img
+                class="ratings"
+                src="./public/assets/images/ratings.png"
+                alt="ratings"
+              />
+            </div>
+            <div class="testimonials-cards-text">
+              <p class="testimonials-cards-title font-nunito">Al Nasr Umrah</p>
+              <h1 class="testimonials-cards-name font-kufam">Abd Al Jami’ah</h1>
+              <p class="testimonials-cards-review font-nunito">
+                I am very satisfied with Al Nasr Travel's service, starting from
+                when we arrived in Saudi until we returned to Indonesia. We
+                provide very good service.
+              </p>
+            </div>
+          </div>
+          <div class="testimonials-slider-cards">
+            <div class="testimonials-cards-img-rating">
+              <img
+                class="img-1"
+                src="./public/assets/images/cards-img-2.png"
+                alt="cards-img-2"
+              />
+              <img
+                class="ratings"
+                src="./public/assets/images/ratings.png"
+                alt="ratings"
+              />
+            </div>
+            <div class="testimonials-cards-text">
+              <p class="testimonials-cards-title font-nunito">Al Nasr Umrah</p>
+              <h1 class="testimonials-cards-name font-kufam">Humaira Khaira</h1>
+              <p class="testimonials-cards-review font-nunito">
+                I am very satisfied with Al Nasr Travel's service, starting from
+                when we arrived in Saudi until we returned to Indonesia. We
+                provide very good service.
+              </p>
+            </div>
+          </div>
+          <div class="testimonials-slider-cards">
+            <div class="testimonials-cards-img-rating">
+              <img
+                class="img-1"
+                src="./public/assets/images/cards-img-3.png"
+                alt="cards-img-3"
+              />
+              <img
+                class="ratings"
+                src="./public/assets/images/ratings.png"
+                alt="ratings"
+              />
+            </div>
+            <div class="testimonials-cards-text">
+              <p class="testimonials-cards-title font-nunito">Al Nasr Umrah</p>
+              <h1 class="testimonials-cards-name font-kufam">
+                Hubi Khairuddin
+              </h1>
+              <p class="testimonials-cards-review font-nunito">
+                I am very satisfied with Al Nasr Travel's service, starting from
+                when we arrived in Saudi until we returned to Indonesia. We
+                provide very good service.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-slider">
+          <div class="testimonials-slider-cards">
+            <div class="testimonials-cards-img-rating">
+              <img
+                class="img-1"
+                src="./public/assets/images/cards-img-3.png"
+                alt="cards-img-3"
+              />
+              <img
+                class="ratings"
+                src="./public/assets/images/ratings.png"
+                alt="ratings"
+              />
+            </div>
+            <div class="testimonials-cards-text">
+              <p class="testimonials-cards-title font-nunito">Al Nasr Hajj</p>
+              <h1 class="testimonials-cards-name font-kufam">Ibn Syakir</h1>
+              <p class="testimonials-cards-review font-nunito">
+                I am very satisfied with Al Nasr Travel's service, starting from
+                when we arrived in Saudi until we returned to Indonesia. We
+                provide very good service.
+              </p>
+            </div>
+          </div>
+          <div class="testimonials-slider-cards">
+            <div class="testimonials-cards-img-rating">
+              <img
+                class="img-1"
+                src="./public/assets/images/cards-img-4.png"
+                alt="cards-img-4"
+              />
+              <img
+                class="ratings"
+                src="./public/assets/images/ratings.png"
+                alt="ratings"
+              />
+            </div>
+            <div class="testimonials-cards-text">
+              <p class="testimonials-cards-title font-nunito">
+                Al Nasr Hajj Platinum
+              </p>
+              <h1 class="testimonials-cards-name font-kufam">Ray Gunawan</h1>
+              <p class="testimonials-cards-review font-nunito">
+                I am very satisfied with Al Nasr Travel's service, starting from
+                when we arrived in Saudi until we returned to Indonesia. We
+                provide very good service.
+              </p>
+            </div>
+          </div>
+          <div class="testimonials-slider-cards">
+            <div class="testimonials-cards-img-rating">
+              <img
+                class="img-1"
+                src="./public/assets/images/cards-img-5.png"
+                alt="cards-img-5"
+              />
+              <img
+                class="ratings"
+                src="./public/assets/images/ratings.png"
+                alt="ratings"
+              />
+            </div>
+            <div class="testimonials-cards-text">
+              <p class="testimonials-cards-title font-nunito">Al Nasr Hajj</p>
+              <h1 class="testimonials-cards-name font-kufam">Indra Pratama</h1>
+              <p class="testimonials-cards-review font-nunito">
+                I am very satisfied with Al Nasr Travel's service, starting from
+                when we arrived in Saudi until we returned to Indonesia. We
+                provide very good service.
+              </p>
+            </div>
+          </div>
+          <div class="testimonials-slider-cards">
+            <div class="testimonials-cards-img-rating">
+              <img
+                class="img-1"
+                src="./public/assets/images/cards-img-6.png"
+                alt="cards-img-6"
+              />
+              <img
+                class="ratings"
+                src="./public/assets/images/ratings.png"
+                alt="ratings"
+              />
+            </div>
+            <div class="testimonials-cards-text">
+              <p class="testimonials-cards-title font-nunito">Al Nasr Umrah</p>
+              <h1 class="testimonials-cards-name font-kufam">Abd Al Jami’ah</h1>
+              <p class="testimonials-cards-review font-nunito">
+                I am very satisfied with Al Nasr Travel's service, starting from
+                when we arrived in Saudi until we returned to Indonesia. We
+                provide very good service.
+              </p>
+            </div>
+          </div>
+        </div>
+        <button class="testimonials-slider-button font-nunito">
+          Next
+          <img src="./public/assets/svgs/arrow-right.svg" alt="arrow-left" />
+        </button>
+      </section>
 
-    <!-- Hadi & Nike -->
-    <section id="about-us"></section>
+      <!-- Wahyu & Putri -->
+      <section id="gallery"></section>
 
-    <!-- Najikha & Dela -->
-    <section id="packages"></section>
-    <section id="airways-accomodation"></section>
-
-    <!-- Sabrina & Yanti -->
-    <section id="facility"></section>
-
-    <!-- Okta & Lisa -->
-    <section id="testimonials"></section>
-
-    <!-- Wahyu & Putri -->
-    <section id="gallery"></section>
-
-    <!-- Okta & Lisa -->
-    <footer></footer>
-  </main>
-</body>
-
+      <!-- Reza & Lisa -->
+      <footer class="font-nunito">
+        <div class="footer-top">
+          <div class="">
+            <img
+              class="footer-logo"
+              src="./public/assets/images/footer-logo.png"
+              alt="footer-logo"
+            />
+            <p class="footer-logo-description">
+              Comfortable and Quiet Worship, Our Service No. 1 in Indonesia
+            </p>
+          </div>
+          <div class="footer-link">
+            <h5 class="footer-link-title">Quick Link</h5>
+            <p class="footer-link-item">About Us</p>
+            <p class="footer-link-item">Flight Accommodation</p>
+            <p class="footer-link-item">Facilities</p>
+            <p class="footer-link-item">Gallery</p>
+          </div>
+          <div class="footer-link">
+            <h5 class="footer-link-title">Package Umrah</h5>
+            <p class="footer-link-item">Al Nasr Umrah Bronze</p>
+            <p class="footer-link-item">Al Nasr Umrah Silver</p>
+            <p class="footer-link-item">Al Nasr Umrah Gold</p>
+            <p class="footer-link-item">Al Nasr Umrah Priority</p>
+          </div>
+          <div class="footer-link">
+            <h5 class="footer-link-title">Package Hajj</h5>
+            <p class="footer-link-item">Al Nasr Hajj Diamond</p>
+            <p class="footer-link-item">Al Nasr Hajj Platinum</p>
+            <p class="footer-link-item">Al Nasr Hajj Priority</p>
+          </div>
+          <div class="footer-link">
+            <h5 class="footer-link-title">Office Place</h5>
+            <p class="footer-link-item">Indonesia</p>
+            <p class="footer-link-item">Saudi Arabia</p>
+            <p class="footer-link-item">Uni Emirates Arab</p>
+          </div>
+        </div>
+        <hr class="footer-line" />
+        <div class="footer-bottom">
+          <p class="footer-copyright">
+            Copyright © 2006 - 2023 Al Nasr Travel | All Reserverd
+          </p>
+          <div class="footer-sosmed">
+            <img
+              class="footer-sosmed-item"
+              src="./public/assets/images/IG.png"
+              alt="IG"
+            />
+            <img
+              class="footer-sosmed-item"
+              src="./public/assets/images/FB.png"
+              alt="FB"
+            />
+            <img
+              class="footer-sosmed-item"
+              src="./public/assets/images/TW.png"
+              alt="twitter"
+            />
+            <img
+              class="footer-sosmed-item"
+              src="./public/assets/images/YT.png"
+              alt="yt"
+            />
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
 </html>
